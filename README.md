@@ -25,10 +25,3 @@ curl -d '{"message":"resume"}' -H "content-type:application/json" "https://apien
 ```
 
 If you're running locally, you won't need an API key.
-
-## Sending authenticated requests
-
-No Node.js client is written yet, but you can try the Python client found [here][python-client].
-It will send authenticated JWT requests using a Google Cloud service account, or using a three-legged OAuth flow.
-
-[python-client]: https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/endpoints/getting-started
