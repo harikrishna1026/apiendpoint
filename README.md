@@ -1,17 +1,6 @@
-# Google Cloud Endpoints sample for Node.js
 
-This sample demonstrates how to use Google Cloud Endpoints using Node.js.
 
-For a complete walkthrough showing how to run this sample in different
-environments, see the
-[Google Cloud Endpoints Quickstarts](https://cloud.google.com/endpoints/docs/quickstarts).
-
-## Running locally
-
-Refer to the [appengine/README.md](../../appengine/README.md) file for
-instructions on running locally.
-
-## Send an echo request
+## Deploy APIendpoint configuration file and API Backend
 
 Choose your local or production server:
 
@@ -23,7 +12,8 @@ Choose your local or production server:
 	5. ****OpenAPI configuration file used 'openapi-appengine.yaml'  to configure endpoint.  Endpoint configuration is deployed on Google App Engine (PaaS) ***
 	6. Deploy the endpoint configuration " gcloud service-management deploy openapi-appengine.yaml "
 		a. This will create a endpoint config-id, use it in api.yaml  file
-Deploying API Backend 'api.yaml'  file     "gcloud app deploy" 
+		
+	7. Deploying API Backend 'api.yaml'  file     "gcloud app deploy" 
 ```
 
 Send the request:
