@@ -6,7 +6,7 @@ Choose your local or production server:
 
 ```
 	1. Set up project in GCP
-	2. Convert Resume in PDF to JSON using 'pdf2json'  nodejs library
+	2. Convert Resume in PDF to JSON using 'pdf2json'  nodejs library  **Uploaded 'resumejson' file to github
 	3. Create an object bucket in Google Cloud Storage and upload the JSON file. Create a public Url link to the file.
 	4. Copy the project files in the git hub to google cloud project folder
 	5. ****OpenAPI configuration file used 'openapi-appengine.yaml'  to configure endpoint.  Endpoint configuration is deployed on Google App Engine (PaaS) ***
